@@ -93,7 +93,7 @@ namespace HideVersionString
 			MyGuiControlLabel myGuiControlLabel = new MyGuiControlLabel(new Vector2(0f, start.Y + minSizeGui.Y / 2f), null, null, null, 0.8f, "Blue", MyGuiDrawAlignEnum.HORISONTAL_CENTER_AND_VERTICAL_CENTER);
 			myGuiControlLabel.Name = MyGuiScreenBase.GAMEPAD_HELP_LABEL_NAME;
 			Controls.Add(myGuiControlLabel);
-			m_spectatorHintLabel = new MyGuiControlLabel(new Vector2(0f, 0.43f) * m_size.Value, null, "Version: " + MyFinalBuildConstants.APP_VERSION_STRING_DOTS.ToString() + " Branch: " + MyGameService.BranchName, null, 0.8f, "Blue", MyGuiDrawAlignEnum.HORISONTAL_CENTER_AND_VERTICAL_TOP);
+			m_spectatorHintLabel = new MyGuiControlLabel(new Vector2(0f, 0.43f) * m_size.Value, null, "Version: " + MyFinalBuildConstants.APP_VERSION_STRING_DOTS.ToString() + "  Branch: " + MyGameService.BranchName, null, 0.8f, "Blue", MyGuiDrawAlignEnum.HORISONTAL_CENTER_AND_VERTICAL_TOP);
 			m_spectatorHintLabel.Visible = !MyInput.Static.IsJoystickLastUsed;
 			Controls.Add(m_spectatorHintLabel);
 			base.GamepadHelpTextId = MySpaceTexts.Gamepad_Help_Back;

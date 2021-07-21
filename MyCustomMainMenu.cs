@@ -25,8 +25,6 @@ namespace HideVersionString
         public override void RecreateControls(bool constructor)
         {
             base.RecreateControls(constructor);
-            if (!m_pauseGame)
-            {
                 m_elemtents = new MyGuiControlElementGroup();
                 m_elemtents.HighlightChanged += OnHighlightChange;
                 MyGuiControlButton button = null;
@@ -49,7 +47,7 @@ namespace HideVersionString
                     Controls[index] = optionsButton;
                     optionsButton.SetToolTip(button.Tooltips);
                 }
-            }
+           
         }
 
         private void OnHighlightChange(MyGuiControlElementGroup obj)

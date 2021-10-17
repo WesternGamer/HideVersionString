@@ -1,5 +1,4 @@
 ﻿using HarmonyLib;
-using Sandbox.Game;
 using System.Reflection;
 using VRage.Plugins;
 
@@ -7,11 +6,6 @@ namespace HideVersionString
 {
     public class Main : IPlugin
     {     
-        public void Startup()
-        {
-            
-        }
-
         public void Dispose()
         {
             
@@ -19,9 +13,8 @@ namespace HideVersionString
       
         public void Init(object gameInstance)
         { 
-            Harmony harmony = new Harmony("SEPluginTemplate");
+            Harmony harmony = new Harmony("HideVersionString");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
-            MyPerGameSettings.GUI.MainMenu = typeof(MyCustomMainMenu);
         }
        
         public void Update()

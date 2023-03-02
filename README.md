@@ -5,7 +5,7 @@ Makes the Main Menu cleaner by hiding the the version string.
 ## Plugin Installation
 To use the plugin, please install PluginLoader (https://github.com/austinvaness/PluginLoader). After you install PluginLoader successfully, go to the plugins menu from the main menu and select Hide Version String. Click Apply and you will be asked to restart the game. Click Yes to restart the game and you done! Manual Plugin Installation without PluginLoader is not supported!
 
-## Manual Plugin Installation With PluginLoader 
+## Manual Plugin Installation With PluginLoader (Unsupported)
 
 WARNING: Use this only if you could not get the normal plugin installation to work in anyway. Local plugins can be dangerous because these plugins are not checked by the authors of PluginLoader and you may accidentally run a virus or malware. USE AT YOUR OWN RISK.
 

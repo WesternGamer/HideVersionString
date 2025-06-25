@@ -1,6 +1,5 @@
 ﻿using HarmonyLib;
 using System.Reflection;
-using System.Windows.Forms;
 using VRage.Plugins;
 
 namespace HideVersionString

@@ -9,7 +9,6 @@ namespace HideVersionString
     {     
         public Main()
         {
-            Control.CheckForIllegalCrossThreadCalls = false;
             Harmony harmony = new Harmony("HideVersionString");
             harmony.PatchAll(Assembly.GetExecutingAssembly());
         }
